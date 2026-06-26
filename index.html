@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Ajanta Green - Fardapur, Ajanta Caves</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #f8f5f0; color: #333; }
+        .top-bar { background: #1a1a1a; color: #c8a45c; text-align: center; padding: 10px; font-size: 14px; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200'); background-size: cover; background-position: center; height: 300px; display: flex; align-items: center; justify-content: center; text-align: center; color: white; }
+        .hero h1 { font-size: 36px; margin-bottom: 10px; }
+        .hero h1 span { color: #c8a45c; }
+        .hero p { font-size: 18px; }
+        .section { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        .section h2 { text-align: center; color: #1a1a1a; margin-bottom: 30px; font-size: 28px; border-bottom: 2px solid #c8a45c; display: inline-block; padding-bottom: 10px; }
+        .rooms { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+        .room-card { background: white; border-radius: 10px; padding: 25px; flex: 1; min-width: 250px; max-width: 320px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; }
+        .room-card h3 { color: #1a1a1a; margin-bottom: 10px; }
+        .price { font-size: 24px; color: #c8a45c; font-weight: bold; margin: 10px 0; }
+        .facilities { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; }
+        .facility { background: white; padding: 20px; border-radius: 10px; text-align: center; min-width: 140px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        .facility .icon { font-size: 30px; margin-bottom: 8px; }
+        .contact { background: #1a1a1a; color: white; text-align: center; padding: 40px 20px; }
+        .contact a { color: #c8a45c; text-decoration: none; font-size: 18px; }
+        .btn { display: inline-block; background: #c8a45c; color: #1a1a1a; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: bold; margin-top: 15px; }
+        .btn:hover { background: #b8923e; }
+        .footer { background: #111; color: #888; text-align: center; padding: 20px; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">🌟 Near UNESCO Ajanta Caves — Only 500m from the Heritage Site</div>
+
+    <div class="hero">
+        <div>
+            <h1>Hotel <span>Ajanta Green</span></h1>
+            <p>Restaurant & Resort — Where Heritage meets Hospitality</p>
+            <a href="#contact" class="btn">Book Now</a>
+        </div>
+    </div>
+
+    <div class="section" id="about">
+        <h2>About Us</h2>
+        <p style="text-align:center; max-width:700px; margin:0 auto; line-height:1.8;">
+            Nestled near Ajanta T-Point in <strong>Fardapur</strong>, Hotel Ajanta Green Restaurant and Resort is your perfect retreat after exploring the ancient Ajanta Caves. We offer comfortable AC rooms, a multi-cuisine restaurant, free WiFi, and warm hospitality — all just minutes from the UNESCO World Heritage Site.
+        </p>
+    </div>
+
+    <div class="section" id="rooms">
+        <h2>Our Rooms</h2>
+        <div class="rooms">
+            <div class="room-card">
+                <h3>🏨 Standard AC Room</h3>
+                <p>2 Guests | 1 Double Bed</p>
+                <div class="price">₹3,756<span style="font-size:14px;">/night</span></div>
+                <p>✅ AC | WiFi | TV | Free Breakfast</p>
+            </div>
+            <div class="room-card">
+                <h3>🏨 Deluxe AC Room</h3>
+                <p>3 Guests | 1 King Bed</p>
+                <div class="price">₹4,999<span style="font-size:14px;">/night</span></div>
+                <p>✅ AC | WiFi | TV | Free Breakfast</p>
+            </div>
+            <div class="room-card">
+                <h3>🏨 Family Suite</h3>
+                <p>4 Guests | 2 Double Beds</p>
+                <div class="price">₹6,499<span style="font-size:14px;">/night</span></div>
+                <p>✅ AC | WiFi | TV | Free Breakfast</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="facilities">
+        <h2>Facilities</h2>
+        <div class="facilities">
+            <div class="facility"><div class="icon">🍽️</div><strong>Restaurant</strong></div>
+            <div class="facility"><div class="icon">📶</div><strong>Free WiFi</strong></div>
+            <div class="facility"><div class="icon">🅿️</div><strong>Free Parking</strong></div>
+            <div class="facility"><div class="icon">❄️</div><strong>AC Rooms</strong></div>
+            <div class="facility"><div class="icon">🛎️</div><strong>Room Service</strong></div>
+            <div class="facility"><div class="icon">🍳</div><strong>Free Breakfast</strong></div>
+        </div>
+    </div>
+
+    <div class="section" id="restaurant">
+        <h2>Our Restaurant</h2>
+        <p style="text-align:center; max-width:700px; margin:0 auto; line-height:1.8;">
+            <strong>Hotel Ajanta Green Restaurant</strong> serves delicious Indian, Chinese, and local Maharashtrian cuisine. Enjoy a <strong>complimentary breakfast</strong> with every stay. Open for breakfast, lunch, and dinner. Room service available 24/7.
+        </p>
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>Contact & Location</h2>
+        <p style="font-size:18px;">📍 Near Ajanta T-Point, Ajanta Caves Road, Fardapur, Maharashtra — 431118</p>
+        <p style="margin-top:15px;">📞 <a href="tel:+919822443721">+91 9822443721</a></p>
+        <p>✉️ <a href="mailto:ajantagreen@gmail.com">ajantagreen@gmail.com</a></p>
+        <p style="margin-top:10px;">🕐 Check-in: 12:00 PM | Check-out: 10:00 AM</p>
+        <a href="tel:+919822443721" class="btn" style="margin-top:20px;">📞 Call to Book Now</a>
+    </div>
+
+    <div class="footer">
+        © 2026 Hotel Ajanta Green Restaurant & Resort | Where Heritage meets Hospitality
+    </div>
+
+</body>
+</html>
